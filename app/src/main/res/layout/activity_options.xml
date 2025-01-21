@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:elevation="4dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/accountButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accounts"
+        android:backgroundTint="@color/blue"/>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="@color/blue"/>
+
+    <Button
+        android:id="@+id/instructionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instruction set"
+        android:backgroundTint="@color/blue"/>
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:backgroundTint="@color/blue"/>
+</LinearLayout>
